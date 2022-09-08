@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  font-family: "Poppins";
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  background: #e8e8fd;
+  position: relative;
+}
+
+.container-linear {
+  position: absolute;
+  width: 276px;
+  height: 1009px;
+  left: 79px;
+  top: 95px;
+  background: #ee4d38;
+  border-radius: 46px;
+  z-index: 1;
+}
+.container-base {
+  position: absolute;
+  width: 1300px;
+  height: 879px;
+  left: 140px;
+  top: 160px;
+  border-radius: 30px;
+  background-color: #ffffff;
+  z-index: 2;
+}
+.form {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+.form-sideBar-container {
+  background-color: #f8f8ff;
+  width: 260px;
+  height: 879px;
+  border-top-left-radius: 46px;
+  border-bottom-left-radius: 46px;
+}
+.form-sideBar {
+  width: 180px;
+  margin: 38px auto;
+}
+.sideBar-profile {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 14px;
+}
+.profile-info h1 {
+  font-weight: 700;
+  font-size: 16px;
+  color: #1a194d;
+}
+.profile-info h2 {
+  font-weight: 400;
+  font-size: 14px;
+  color: #62618f;
+}
+.sideBar-menu {
+  display: flex;
+  flex-direction: column;
+  margin-top: 49px;
+}
+.sideBar-menu li {
+  display: grid;
+  margin-top: 28px;
+  border: 1px;
+  border-radius: 50px;
+  background-color: white;
+}
+.sideBar-menu li:hover {
+  background-color: #f8f8ff;
+}
+.sideBar-menu li a {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 10px;
+}
+.sideBar-menu li a h1 {
+  color: #62618f;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 5px;
+}
+.sideBar-logout li {
+  border: 1px;
+  border-radius: 50px;
+  background-color: white;
+}
+.sideBar-logout li:hover {
+  background-color: #f8f8ff;
+}
+.sideBar-logout li a {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-top: 260px;
+}
+.sideBar-logout li a h1 {
+  color: #62618f;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 5px;
+}
+.form-right-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.form-right-info {
+  width: 617px;
+  height: 261px;
+  margin-left: 56px;
+  margin-top: 65px;
+}
+.form-right-info-base h1 {
+  font-weight: 700;
+  font-size: 32px;
+  color: #1a194d;
+}
+.form-right-info-base h2 {
+  font-weight: 700;
+  font-size: 16px;
+  color: #1a194d;
+  margin-top: 49px;
+}
+.form-right-info-base h3 {
+  color: #62618f;
+  font-weight: 500;
+  font-size: 14px;
+}
+.form-right-date {
+  margin-top: 50px;
+}
+.form-right-date th a {
+  border: 1px solid #cbcbd9;
+  border-radius: 8px;
+  padding: 6px 6px 6px 12px;
+  color: #1a194d;
+}
+
+#dates {
+  width: 100%;
+  padding: 6px 6px 6px 12px;
+  background: #c1dad7;
+  border-collapse: collapse;
+}
+
+#dates th {
+  color: #62618f;
+  padding: 6px 6px 6px 12px;
+  font-size: 14px;
+  text-align: left;
+}
+
+#dates td {
+  padding: 6px 6px 6px 12px;
+  color: #1a194d;
+  font-weight: 500;
+  font-size: 16px;
+}
+#dates tr {
+  color: #1a194d;
+  font-weight: 500;
+  font-size: 16px;
+  background: #fff;
+}
+#dates tr:hover {
+  background: #cbcbd9;
+  color: #fff;
+}
+.load-btn {
+  margin-top: 15px;
+}
+.load-btn a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ee4d38;
+  text-decoration-line: underline;
+  padding: 15px;
+  background-color: aliceblue;
+  border-radius: 50px;
+}
+.credit {
+  display: flex;
+  margin-top: 60px;
+}
+.credit h4 {
+  color: #1a194d;
+  margin: auto;
+  margin-left: 15px;
+}
+.right-box-container {
+  width: 258px;
+  height: 221px;
+  background: #ee4d38;
+  box-shadow: 0px 8px 19px rgba(223, 223, 253, 0.6);
+  border-radius: 16px;
+  margin-top: 162px;
+}
+.right-box-info {
+  margin-left: 32px;
+}
+.right-box-info h1 {
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  padding-top: 32px;
+}
+.right-box-info h2 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #ffffff;
+  padding-top: 16px;
+}
+.right-box-info h3 {
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffffff;
+  padding-top: 4px;
+}
+.right-box-info ul {
+  margin-top: 32px;
+}
+.right-box-info a {
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+}
